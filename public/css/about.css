@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aqua;
+    color: aliceblue;
+}
+nav>.logo{
+    color: black;
+    font-size: 36px;
+}
+nav>.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
